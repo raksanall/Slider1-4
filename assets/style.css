@@ -10,11 +10,13 @@ div:not(#alldiv){
     display: flex;
     flex-direction: column;
 }
-body{
+body{ background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
+    overflow: hidden;
 
 }
 p{width: 102px;
@@ -31,9 +33,12 @@ p{width: 102px;
 }
 .buttons button{border-style: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 17px;
     padding: 6px 30px;
     cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    
+    
 }
 .buttons button:disabled{
     cursor: default;
